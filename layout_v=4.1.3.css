@@ -1,0 +1,91 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite,
+code,del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, u, i, center,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display:block;}
+body{line-height:1.4;}
+ol, ul{list-style:none;}
+blockquote, q{quotes:none;}
+table{border-collapse:collapse;border-spacing:0;}
+blockquote:before, blockquote:after,q:before, q:after{content:'';content:none;}
+html,body{background-color:#F1F1F1;font-family:Geneva,Tahoma,Verdana,Helvetica,arial,sans-serif;}
+div#header{width:100%;text-align:center;padding:8px 0 2px 0;}
+img#logo-img{width:90%;max-width:520px;max-height:88px;margin:auto;}
+div#navbar{width:100%;text-align:center;margin:4px 0px;font-size:1em;}
+div.nav-link{width:99.8%;max-width:960px;margin:8px auto;border:1px solid #003399;background-color:rgb(23, 108, 238);}
+h1.nav-text{padding:10px 4px;line-height:20px;color:white;}
+div#section{width:100%;text-align:center;margin:4px 0px 12px 0px;}
+div#container{width:98%;max-width:960px;margin:auto;display:inline-block;}
+div.content{width:96%;max-width:424px;margin:8px 2%;display:inline-block;}
+table#login-form{width:100%;max-width:320px;margin:auto;}
+table.game-table{width:100%;}
+tr.game-date ,tr#login-head{width:100%;height:40px;border:1px solid #339966;background-color:#33CC99;}
+tr.game-date td.date ,td#login-head{vertical-align:middle;font-size:1em;color:white;}
+tr.game-result ,tr.holder{width:100%;height:60px;background-color:white;border:1px solid #CCCCCC;}
+td.game-time{vertical-align:middle;text-align:left;}
+h2.game{font-size:1em;margin:4px 8px;}
+h2.time{font-size:0.8em;margin:4px 8px;float: left}
+td.game-number{vertical-align:middle;text-align:right;padding-right:8px;}
+h3.number{font-size:2em;margin:4px 8px;}
+tr.space{width:100%;height:12px;}
+h2.logRow{margin:8px;text-align:left;line-height:24px;}
+h1.logRow{margin:8px;text-align:left;color:blue;}
+.game-result:hover{background-color:#F1F1F1; border: #CCCCCC 1px solid;}
+td.e-link:hover,div.nav-link:hover,input#direct-chart:hover,input.log:hover,input.post:hover{background-color:#003399;}
+input.filledBox,input.blankBox{width:60px;margin:8px;padding-left:8px;height:40px;font-size:1.5em;font-weight:bold;color:white;}
+input.filledBox{border:1px solid #339966;background-color:#33CC99;}
+input.blankBox{border:1px solid #DA040C;background-color:#F7435E;}
+div#footer{width:100%;text-align:center;margin:4px auto 8px auto;display:inline-block;}
+div#chart-form{width:96%;max-width:960px;margin:auto;color:white;border:1px solid rgb(231, 170, 38);background-color:#FBC503;display:inline-block;padding:8px 4px;}
+h2#chart-text{padding:2px;color:black;line-height:20px;}
+select#month,select#year,input#direct-chart{width:30%;min-width:180px;max-width:320px;margin:8px 1%;height:40px;font-size:1em;font-weight:bold;padding:8px;}
+input.text,input.log{width:84%;margin:8px auto;font-size:1em;font-weight:bold;padding:8px 4px;}
+input.post, input.value{width:30%;min-width:120px;max-width:320px;margin:8px 1%;font-size:1em;font-weight:bold;padding:8px 4px;}
+tr.holder{border:1px solid rgb(231, 170, 38);background-color:#FBC503;}
+td.row{vertical-align:middle;}
+input#direct-chart,input.log,input.post{border:1px solid #003399;background-color:rgb(23, 108, 238);color:white;}
+a:link,a:hover,a:active,a:visited{color:#2962FF;text-decoration:none;}
+textarea{resize:vertical; width: 84%; height:60px; margin:8px auto;}
+div.message{padding:4px 2px;display:inline-block;margin:12px auto;width:96%;max-width:480px;min-height:32px;}
+h4.message{text-align:left;line-height:24px;padding:0.5em;font-size:1em;float:left;}
+div#failed{border:1px solid rgb(239, 105, 131);background-color:rgb(253, 221, 226);}
+div#success{border:1px solid rgb(2,199,124);background-color:rgb(189,239,193);}
+div#error{border:1px solid rgb(215, 212, 70);background-color:rgb(244, 243, 169);}
+div#info{border:1px solid rgb(26, 212, 236);background-color:rgb(193, 242, 249);}
+table tr.day-number:nth-child(even){background-color:#F9F9F9;}
+table tr.day-number:nth-child(odd){background-color:#fff;}
+table.chart-table{width:100%;}
+tr.chart-head{width:100%;height:40px;border:1px solid #339966;background-color:#33CC99;}
+td.month{vertical-align:middle;font-size:1em;color:white;}
+tr.date-name{width:100%;height:36px;background-color:#FBC503;border:1px solid rgb(231, 170, 38);}
+tr.date-name td.date,tr.date-name th.name{border-right:1px solid rgb(231, 170, 38);vertical-align:middle;}
+tr.day-number{width:100%;height:32px;border:1px solid #CCCCCC;}
+tr.day-number td.day,tr.day-number td.number{border-right:1px solid #CCCCCC;vertical-align:middle;}
+tr.date-name td.date,tr.day-number td.day{color:red;}
+td.day div{min-width:60px;max-width:180px;}
+td.e-link{vertical-align:middle;color:white;background-color:rgb(23, 108, 238);border:1px solid #003399;}
+h1.aero{color:white;}
+td.d-link{vertical-align:middle;color:white;background-color:#6F6C6C;border:1px solid #3B3B3C;}
+tr.option{font-size:1em;color:white;border:2px solid #F1F1F1;height:40px;}
+table tr.day-number:hover{background-color:#F0F0F0;color:red;}
+input #DT{width:40%;}
+input #DT,input #HR, input #MN{margin:8px auto;font-size:1em;font-weight:bold;padding:8px 4px;}
+/* added new code*/
+div.main-content {width: 98%;margin: 8px 1%;display: inline-block;}
+table.quick-result-board{width: 100%; margin-bottom: 36px;}
+tr.board-title{width: 100%;height: 60px;border: 1px solid #396;background-color: #3c9; line-height: 1.4;}
+tr.board-title > th {vertical-align: middle;font-size: 1.2em;color: #fff;margin: 0 8px;}
+tr.board-head{width: 100%;height: 40px;border: 1px solid  #212121;background-color: #424242}
+tr.board-head > th {vertical-align: middle;font-size: 1.1em;color: #fff; line-height: 24px; margin: 4px 2px;}
+tr.board-head a {color: #fff;}
+.games-name{width: 64%;text-align: left;padding: 4px 8px 4px 8px;}
+.today-date, .yesterday-date{width: 18%;text-align: center;text-align: right;padding: 4px 12px;}
+.game-details{vertical-align: middle;text-align: left;}
+.game-details > .game-name{font-size: 1.1em;font-weight: 500;margin: 4px 8px}
+.game-details > .game-time{font-size: 0.8em;padding: 2px 8px;float: left;}
+.game-details > .game-link{font-size: 0.8em;padding: 2px 8px;}
+.today-number, .yesterday-number{vertical-align: middle;text-align: right;padding-right: 8px;}
+.today-number > h3, .yesterday-number > h3{font-size: 1.6em;font-weight: 500;margin: 4px 8px;}
+tr.highlight{background-color:#fbc503; border: #bf8302 1px solid}
+label {text-align: left;display: block;font-weight: bold;width: 84%;margin: 8px auto auto auto;}
+.profile-data {text-align: left;width: 84%;margin: 4px auto;}
